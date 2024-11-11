@@ -20,7 +20,7 @@ import { useControls } from "leva";
 
 extend({ MeshLineGeometry, MeshLineMaterial });
 useGLTF.preload(
-  "https://framerusercontent.com/assets/gwQqctu23vUTMigifJUc7isFsQI.glb"
+  "https://framerusercontent.com/assets/fQUER7i48uNFTZAJiyu1ZmsIjr8.glb"
 );
 useTexture.preload(
   "https://framerusercontent.com/images/RKUm13B9C18sNA33B56HJmkLOa0.jpg"
@@ -86,7 +86,7 @@ function Band({ maxSpeed = 50, minSpeed = 10 }) {
     linearDamping: 2,
   };
   const { nodes, materials } = useGLTF(
-    "https://framerusercontent.com/assets/gwQqctu23vUTMigifJUc7isFsQI.glb"
+    "https://framerusercontent.com/assets/fQUER7i48uNFTZAJiyu1ZmsIjr8.glb"
   );
   const texture = useTexture(
     "https://framerusercontent.com/images/RKUm13B9C18sNA33B56HJmkLOa0.jpg"
